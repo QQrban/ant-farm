@@ -1,14 +1,10 @@
 # Project LEM-IN
 
-Authors Toomas Vooglaid (tvooglai) and Kurban Ramazanov
-
-Task [description](https://github.com/01-edu/public/tree/master/subjects/lem-in) and audit [requirements](https://github.com/01-edu/public/tree/master/subjects/lem-in/audit)
+Authors Toomas Vooglaid (Backend) and Kurban Ramazanov (Frontend)
 
 ## Usage
 
-1. Clone repository: `git clone https://01.kood.tech/git/tvooglai/lem-in.git`
-2. Move into folder: `cd lem-in`
-3. Run visualisation by executing `./run.sh [example01.txt]` or follow steps manually:
+Run visualisation by executing `./run.sh [example01.txt]` or follow steps manually:
     * To get ants' steps textually, execute `go run . example01.txt`
     * Change number of ants by providing option `-ants <int>`, e.g. `go run . -ants 5 example01.txt`
     * Run visualisation by executing `go run . example01.txt | go run .`
@@ -30,7 +26,3 @@ On the page, you will find an intuitive interface where you can find all possibl
 ## Comment about direction of ants' movements
 
 As ants stubbornly face left side (see e.g. visualisation of example00), we had to change start and end points to match their preferences :).
-
-### Disclaimer
-
-Initial inspiration for this project was sparked from Egon Saks [work](https://github.com/EgonSaks/lem-in).
