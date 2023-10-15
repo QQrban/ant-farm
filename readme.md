@@ -4,7 +4,7 @@ Authors Toomas Vooglaid (Backend) and Kurban Ramazanov (Frontend)
 
 ## Usage
 
-Run visualisation by executing `./run.sh [example01.txt]` or follow steps manually:
+1. Run visualisation by executing `./run.sh [example01.txt]` or follow steps manually:
     * To get ants' steps textually, execute `go run . example01.txt`
     * Change number of ants by providing option `-ants <int>`, e.g. `go run . -ants 5 example01.txt`
     * Run visualisation by executing `go run . example01.txt | go run .`
