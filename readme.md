@@ -1,5 +1,3 @@
-# Project LEM-IN
-
 Authors Toomas Vooglaid (Backend) and Kurban Ramazanov (Frontend)
 
 ## Usage
